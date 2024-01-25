@@ -2,6 +2,11 @@
     background-color: #0b0b31;
 }
 
+.topBar a{
+    color: #a9a9a9;
+    text-decoration: none;
+}   
+
 .topBarNav {
     color: #a9a9a9;
 }
@@ -22,4 +27,20 @@
     margin-right: 5px;
     color: #f0fff2;
     background-color: #0b0b31;
+}
+
+.heroImage img {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.carouselGroup li {
+    list-style: none;
+}
+
+.carouselButton{
+    background-color: #808080;
+    margin-top: 5px;
+    margin-right: 5px;
 }
