@@ -66,7 +66,7 @@ function BlogsRow() {
                     </div>
                     <div className="row blogButton">
                         <div className="col-sm-12">
-                            <input type="button" value="" />
+                            <input type="button" value="MORE" />
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@ function BlogsRow() {
                     </div>
                     <div className="row blogButton">
                         <div className="col-sm-12">
-                            <input type="button" value="" />
+                            <input type="button" value="MORE" />
                         </div>
                     </div>
                 </div>
@@ -114,7 +114,7 @@ function BlogsRow() {
                     </div>
                     <div className="row blogButton">
                         <div className="col-sm-12">
-                            <input type="button" value="" />
+                            <input type="button" value="MORE" />
                         </div>
                     </div>
                 </div>
@@ -125,9 +125,83 @@ function BlogsRow() {
 
 
 function Services() {
+    let text = 'news'
     return(
         <div className="row">
-
+            <div className="col-sm-4">
+                <div className="container">
+                    <div className="row serviceTitle">
+                        <div className="col-sm-12">
+                            <h1>SERVICES</h1>
+                        </div>
+                    </div>
+                    <div className="row serviceBulletlist">
+                        <div className="col-sm-12">
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="row serviceButon">
+                        <div className="col-sm-12">
+                            <input type="button" value="MORE" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="col-sm-4">
+                <div className="container">
+                    <div className="row oppTitle">
+                        <div className="col-sm-12">
+                            <h1>OPPORTUNITIES</h1>
+                        </div>
+                    </div>
+                    <div className="row oppBulletlist">
+                        <div className="col-sm-12">
+                            <ul>
+                                <li>
+                                    <h3>Lorem ipsum dolor sit.</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In provident dolor magnam voluptatum quos itaque praesentium dignissimos veritatis, nesciunt nihil ullam id? Dolorum, hic! Molestias veniam necessitatibus aliquid illo pariatur.</p>
+                                </li>
+                                <li>
+                                    <h3>Lorem ipsum dolor sit.</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In provident dolor magnam voluptatum quos itaque praesentium dignissimos veritatis, nesciunt nihil ullam id? Dolorum, hic! Molestias veniam necessitatibus aliquid illo pariatur.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="row oppButton">
+                        <div className="col-sm-12">
+                            <input type="button" value="MORE" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="col-sm-4">
+                <div className="container">
+                    <div className="row newsTitle">
+                        <div className="col-sm-12">
+                            <h1>{text}</h1>
+                        </div>
+                    </div>
+                    <div className="row newsLinkOne">
+                        <div className="col-sm-3 newImage">
+                            <img src="https://placehold.jp/150x150.png" className="img-fluid" alt="" />
+                        </div>
+                        <div className="col-sm-9 newsDescrip">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio minus dicta quisquam! Beatae ratione quo, minus fuga repellendus culpa, ab iure maiores quam cumque dolorem ea, incidunt velit voluptatem recusandae!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
