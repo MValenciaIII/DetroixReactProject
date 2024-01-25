@@ -1,0 +1,25 @@
+.topBar {
+    background-color: #0b0b31;
+}
+
+.topBarNav {
+    color: #a9a9a9;
+}
+
+.topBarNav ul{
+    list-style: none;
+}
+
+.topBarNav li {
+    margin-right: 10px;
+}
+
+.logo img{
+    margin-top: 20px;
+}
+
+.mainNavigationButtons li {
+    margin-right: 5px;
+    color: #f0fff2;
+    background-color: #0b0b31;
+}
