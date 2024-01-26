@@ -47,7 +47,7 @@ function Carousel() {
 function BlogsRow() {
     return(
         <div className="row">
-            <div className="col-sm-4">
+            <div className="col-sm-4 blogBorder">
                 <div className="container">
                     <div className="row blogTitle">
                         <div className="col-sm-12">
@@ -66,12 +66,12 @@ function BlogsRow() {
                     </div>
                     <div className="row blogButton">
                         <div className="col-sm-12">
-                            <input type="button" value="MORE" />
+                            <input type="button" className="rounded" value="MORE" />
                         </div>
                     </div>
                 </div>
             </div>  
-            <div className="col-sm-4">
+            <div className="col-sm-4 blogBorder">
                 <div className="container">
                     <div className="row blogTitle">
                         <div className="col-sm-12">
@@ -90,12 +90,12 @@ function BlogsRow() {
                     </div>
                     <div className="row blogButton">
                         <div className="col-sm-12">
-                            <input type="button" value="MORE" />
+                            <input type="button" className="rounded" value="MORE" />
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="col-sm-4">
+            <div className="col-sm-4 blogBorderTop">
                 <div className="container">
                     <div className="row blogTitle">
                         <div className="col-sm-12">
@@ -114,7 +114,7 @@ function BlogsRow() {
                     </div>
                     <div className="row blogButton">
                         <div className="col-sm-12">
-                            <input type="button" value="MORE" />
+                            <input type="button" className="rounded" value="MORE" />
                         </div>
                     </div>
                 </div>
@@ -125,10 +125,10 @@ function BlogsRow() {
 
 
 function Services() {
-    let text = 'news'
+    
     return(
-        <div className="row">
-            <div className="col-sm-4">
+        <div className="row serviceBackgroundColor">
+            <div className="col-sm-4 position-relative">
                 <div className="container">
                     <div className="row serviceTitle">
                         <div className="col-sm-12">
@@ -138,20 +138,36 @@ function Services() {
                     <div className="row serviceBulletlist">
                         <div className="col-sm-12">
                             <ul>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </li>
+                                <li>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </li>
+                                <li>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </li>
+                                <li>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </li>
+                                <li>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </li>
+                                <li>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </li>
+                                <li>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </li>
+                                <li>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </li>
                             </ul>
                         </div>
                     </div>
-                    <div className="row serviceButon">
+                    <div className="row serviceButon position-absolute bottom-0 start-0">
                         <div className="col-sm-12">
-                            <input type="button" value="MORE" />
+                            <input type="button" className="rounded" value="MORE" />
                         </div>
                     </div>
                 </div>
@@ -179,16 +195,16 @@ function Services() {
                     </div>
                     <div className="row oppButton">
                         <div className="col-sm-12">
-                            <input type="button" value="MORE" />
+                            <input type="button" className="rounded" value="MORE" />
                         </div>
                     </div>
                 </div>
             </div>
             <div className="col-sm-4">
                 <div className="container">
-                    <div className="row newsTitle">
+                    <div className="row newssTitle">
                         <div className="col-sm-12">
-                            <h1>{text}</h1>
+                            <h1>NEWS</h1>
                         </div>
                     </div>
                     <div className="row newsLinkOne">
@@ -196,8 +212,31 @@ function Services() {
                             <img src="https://placehold.jp/150x150.png" className="img-fluid" alt="" />
                         </div>
                         <div className="col-sm-9 newsDescrip">
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <h4>Lorem ipsum dolor sit amet.</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio minus dicta quisquam! Beatae ratione quo, minus fuga repellendus culpa, ab iure maiores quam cumque dolorem ea, incidunt velit voluptatem recusandae!</p>
+                        </div>
+                    </div>
+                    <div className="row newsLinkTwo">
+                        <div className="col-sm-3 newImage">
+                            <img src="https://placehold.jp/150x150.png" className="img-fluid" alt="" />
+                        </div>
+                        <div className="col-sm-9 newsDescrip">
+                            <h4>Lorem ipsum dolor sit amet.</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio minus dicta quisquam! Beatae ratione quo, minus fuga repellendus culpa, ab iure maiores quam cumque dolorem ea, incidunt velit voluptatem recusandae!</p>
+                        </div>
+                    </div>
+                    <div className="row newsLinkThree">
+                        <div className="col-sm-3 newImage">
+                            <img src="https://placehold.jp/150x150.png" className="img-fluid" alt="" />
+                        </div>
+                        <div className="col-sm-9 newsDescrip">
+                            <h4>Lorem ipsum dolor sit amet.</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio minus dicta quisquam! Beatae ratione quo, minus fuga repellendus culpa, ab iure maiores quam cumque dolorem ea, incidunt velit voluptatem recusandae!</p>
+                        </div>
+                    </div>
+                    <div className="row newsButton">
+                        <div className="col-sm-12">
+                            <input type="button" className="rounded" value="MORE" />
                         </div>
                     </div>
                 </div>
